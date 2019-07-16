@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.wzy.editview.widgets.DelBugFixedEditText
+            android:id="@+id/etEditView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="left"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="@+id/llItemRootView"
+            app:layout_constraintRight_toRightOf="@+id/llItemRootView"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+            android:id="@+id/llItemRootView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+</merge>

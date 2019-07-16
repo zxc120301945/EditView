@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditView">
+        <attr name="gevTextLength" format="integer" />
+        <attr name="gevTextBackDrawable" format="reference" />
+        <attr name="gevTextSize" format="float" />
+        <attr name="gevTextColor" format="color" />
+        <attr name="gevTextHintColor" format="color" />
+    </declare-styleable>
+</resources>
